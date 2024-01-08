@@ -1,0 +1,151 @@
+* {
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif; */
+    margin: 0;
+    padding: 0;
+}
+
+.header-part {
+    margin: 50px;
+
+}
+
+.banner {
+
+
+    border-radius: 15px;
+    background: linear-gradient(180deg, #070211 0%, rgba(121, 109, 146, 0) 100%), url('../resources/Banner\ Image.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    /* margin: 100px; */
+    background-position: center;
+
+
+}
+
+.banner-title {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.small-title {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.big-title {
+    color: #FFFFFF;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.banner-title {
+    width: 600px;
+    align-items: center;
+    padding: 200px 300px 150px 300px;
+
+}
+
+/* main part style */
+.main-content {
+    text-align: center;
+}
+
+.main-head {
+    color: rgb(221, 21, 21);
+    font-size: 78px;
+    font-weight: 700;
+    font-family: inter;
+    margin: 80px 0px;
+
+
+}
+
+.main-description {
+    color: rgb(142, 42, 42);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.main-small-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0px 40px 0px;
+
+}
+
+.main-img {
+    height: 500px;
+    width: 700px;
+}
+
+/* vector relater style */
+.vector-banner {
+    background: linear-gradient(90deg, #140433 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.vector-title {
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 8px;
+}
+
+.vector-discription {
+    color: rgba(249, 231, 231, 0.8);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin: 50px 0px;
+}
+
+.btn-primary {
+    background: #070211;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15x;
+    font-weight: 700;
+    border: 0;
+}
+.vector-part{
+    margin: 50px;
+}
+.vector-content{
+    /* max-width: 600px; */
+    padding: 180px 80px;
+    
+}
+.vector-banner{
+    display: flex;
+    /* gap: 25px; */
+}
+.bector-image{
+    width: 350px;
+    height: 450px;
+   padding: 150px 100px 50px 0px;
+}
+.btn-primary{
+    margin-left: 20px;
+}
+.btn-primary:hover{
+    border: 2px solid rgb(9, 17, 235);
+    padding: 5px;
+    border-radius: 5px;
+}
